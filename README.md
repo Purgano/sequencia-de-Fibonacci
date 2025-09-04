@@ -21,8 +21,11 @@ No terminal, dentro da pasta do projeto, rode:
 ✅ Saída esperada: 34
 
 🎮 Opção B — OnlineGDB (execução no navegador)
+
 1- Abra o site: https://www.onlinegdb.com - (ambiente online para executar/depurar Python).
+
 2- Apague o código padrão e cole o conteúdo de fibonacci.py.
+
 3- Clique em Run para executar.
 
 📖 Sobre a otimização (lru_cache): 
