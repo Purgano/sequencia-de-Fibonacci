@@ -12,10 +12,15 @@ Exemplo: Entrada: 9 → Saída esperada: 34.
 fibonacci.py — implementação recursiva com otimização via cache.
 
 Como executar: 
+
 🎮 Opção A — Localmente (recomendado)
+
 Instale o Python 3.
+
 No terminal, dentro da pasta do projeto, rode:
+
 - Windows: python fibonacci.py 9
+  
 - macOS / Linux: python3 fibonacci.py 9
 
 ✅ Saída esperada: 34
