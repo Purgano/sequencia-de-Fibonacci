@@ -1,26 +1,46 @@
 
-# Avaliação Técniica
+Avaliação Técnica — Python (Fibonacci recursivo)
 
-🖥️ Tema Python.
+🖥️ Tema: Python
+📌 Tarefa: Escrever um script que recebe como parâmetro um número inteiro positivo n e imprime o n-ésimo valor da sequência de Fibonacci usando recursão.
+🧭 Convenção adotada: F(1)=0, F(2)=1 (logo, para n=9 o resultado é 34).
 
-Questão número 2 de um desafio em Python
+📖 Enunciado (resumo):
+Dado um n inteiro positivo, imprimir no console o n-ésimo termo da sequência de Fibonacci.
+Exemplo: Entrada: 9 → Saída esperada: 34.
 
-📋 Entendendo o Desafio:
-Escrever um script que recebe como parametro um número n inteiro positivo e imprime no console o n-ésimo valor correspondente da sequencia de Fibonacci.
+📖 Arquivo
+fibonacci.py — implementação recursiva com otimização via cache.
 
-Obs.: O problema deve ser resolvido utilizando recursão.
-Exemplo:
-Valor recebido = 9
-Resultado esperado é 34.
+Como executar: 
+🎮 Opção A — Localmente (recomendado)
+Instale o Python 3.
+No terminal, dentro da pasta do projeto, rode:
+# Windows
+python fibonacci.py 9
 
-🎮 Executando o código:
+# macOS / Linux
+python3 fibonacci.py 9
 
-📖 Para corrigir a ineficiência da recursão simples, foi usado o cache. O site lru_cache do Python armazena valores calculados anteriormente para que a função não precise refazer o trabalho.
+✅ Saída esperada: 34
 
-No codigo tem explicação por partes após cada #
+🎮 Opção B — OnlineGDB (execução no navegador)
+1- Abra o site: https://www.onlinegdb.com - (ambiente online para executar/depurar Python).
+2- Apague o código padrão e cole o conteúdo de fibonacci.py.
+3- Clique em Run para executar.
 
+📖 Sobre a otimização (lru_cache): 
+Para eliminar recomputações na recursão, foi usado o decorator lru_cache do módulo functools.
+Ele memoriza resultados de chamadas anteriores, acelerando muito para valores maiores de n, mantendo a solução recursiva conforme o enunciado.
+
+✅ Validações: 
+Aceita apenas inteiros positivos (mostra mensagem de erro caso contrário).
+Exemplo de teste interno:
+assert fib_cache(9) == 34
+
+⚠️ Observações:
+O script usa a convenção F(1)=0, F(2)=1. Se você usar F(0)=0, F(1)=1, o índice muda e n=9 retorna 21, não 34.
 
 ## Autores
-
 - [Purgano](https://github.com/Purgano)
 
