@@ -1,5 +1,4 @@
-
-Avaliação Técnica — Python (Fibonacci recursivo)
+# Avaliação Técnica — Python (Fibonacci recursivo)
 
 🖥️ Tema: Python
 📌 Tarefa: Escrever um script que recebe como parâmetro um número inteiro positivo n e imprime o n-ésimo valor da sequência de Fibonacci usando recursão.
@@ -16,10 +15,10 @@ Como executar:
 🎮 Opção A — Localmente (recomendado)
 Instale o Python 3.
 No terminal, dentro da pasta do projeto, rode:
-# Windows
+- Windows
 python fibonacci.py 9
 
-# macOS / Linux
+- macOS / Linux
 python3 fibonacci.py 9
 
 ✅ Saída esperada: 34
