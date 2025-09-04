@@ -1,10 +1,13 @@
 # Avaliação Técnica — Python (Fibonacci recursivo)
 
 🖥️ Tema: Python
+
 📌 Tarefa: Escrever um script que recebe como parâmetro um número inteiro positivo n e imprime o n-ésimo valor da sequência de Fibonacci usando recursão.
+
 🧭 Convenção adotada: F(1)=0, F(2)=1 (logo, para n=9 o resultado é 34).
 
 📖 Enunciado (resumo):
+
 Dado um n inteiro positivo, imprimir no console o n-ésimo termo da sequência de Fibonacci.
 Exemplo: Entrada: 9 → Saída esperada: 34.
 
